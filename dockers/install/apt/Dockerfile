@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 RUN apt-get -y update
 RUN apt-get -y install apt-transport-https curl
